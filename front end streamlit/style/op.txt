@@ -1,0 +1,100 @@
+#Understanding the problem
+Problem Statement :2
+YouTube Analysis ->To demonstrate how YouTube analyse data.
+
+
+  
+#Acquiring data
+Dataset
++Dataset Selection /Dataset creation:
+ I had created my own dataset for by using Google YouTube Data API Version3.
+
+#Understanding Data
+ +Procedure to create YouTube Data API V3 dataset as follows: 
+   -Create project on Google Developers Console 
+   -Request authorization for API key to get API services.
+   -Enable YouTube API to use API key in Jupyter Lab.
+
+  +Prerequisites:
+-Google Account to acquire YouTube API key from Google Developers Console.
+-Python Version3.
+-Anaconda 3 : Jupyter Lab 
+
++Functionalities to analyse data:
+1.Working with YouTube API Data Version3.
+2.Creating interactive YouTube Analytics Dashboard.
+
+(1.) Working with YouTube API Data Version 3
+      #Discovering Data 
+              1. Import Libraries/Packages
+                  Set configurations for Data Visualization Plots
+                    ->Import Data
+              2.Explore Data
+                      ->Identifying type/category of data 
+                      ->Data cleaning -missing values + Data Wrangling
+                      ->Data Filtering
+                      ->Data Preparation (Tabular form)
+                     ->Feature Generation + Feature Selection
+              3.Visualize Data
+                     ->Types of visualizations
+              4.Extract Preliminary Insights
+              5.Evaluation Metrics
+
+
+Extracted data from YouTube channels using Google API Python client library to enable/allow access YouTube data.
+
+type of analysis:
+Exploratory Data Analysis 
+Sentimental Analysis on comments
+
++Total number of videos
++Most viewed video
++likes on a YouTube channel
++Maximum number of comments on a YouTube channel
++Maximum number of dislikes on a YouTube channel
+
+//Trending Video Statistics:
+>number of videos V/S title length
+                           [Scatterplots]
+>views V/S likes 
+                        [Correlation metrics]
+>Number of tags
+>view V/S title 
+                              [Bar graph]
+>view V/S title
+                              [Bar Graph]
+>Watch time: duration
+>Frequent New uploads on days of a week
+>subscribers V/S channel name
+>Channel name V/S views
+
+
+features:
+
+
+
+
+
+Set YouTube parameters
+* Snippets:
+      ->title
+      ->description
+      ->custom URL
+      -> published At
+      …………………..
+* Content Details:
+•	related Playlists
+•	uploads
+* Statistics:
+•	channel Name
+•	subscribers
+•	views
+•	likes
+•	dislikes
+•	videos
+•	tags
+•	video Duration
+•	uploads
+•	comments
+
+ 
